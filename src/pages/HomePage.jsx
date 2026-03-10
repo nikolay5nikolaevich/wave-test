@@ -8,7 +8,7 @@ function HomePage() {
         <h1 className="home_title">Приветствую вас на своем тестовом задании</h1>
         <h2 className="home_subtitle">by Иванов Николай Николаевич</h2>
         <img
-          src="/i.jpg"
+          src={`${import.meta.env.BASE_URL}i.jpg`} 
           alt="Фото автора"
           className="pict_first_page"
         />
